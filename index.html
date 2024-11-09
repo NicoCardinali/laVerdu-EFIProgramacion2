@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantalla de Inicio - La Verdu</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .btn-custom {
+      background-color: #c1ff72;
+      color: #000;
+      border: 2px solid #4caf50;
+      border-radius: 20px;
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 10px;
+      width: 80%;
+    }
+    .btn-custom:hover {
+      background-color: #8ecf03;
+    }
+    footer {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 0;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+    .social-icon {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 24px;
+    }
+    .social-text {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="images/logo.jpeg" alt="Logo La Verdu" class="logo mx-auto d-block">
+
+  <!-- Botones de acción -->
+  <div class="container">
+    <button class="btn btn-custom">Seleccionar Producto</button>
+    <button class="btn btn-custom">Registro / Login</button>
+    <button class="btn btn-custom">Ver Pedido</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container d-flex justify-content-center">
+      <a href="https://instagram.com/laverdu.ok" class="d-flex align-items-center text-white text-decoration-none me-3">
+        <i class="bi bi-instagram social-icon"></i>
+        <span class="social-text">Laverdu.ok</span>
+      </a>
+      <a href="https://facebook.com/laverdu.ok" class="d-flex align-items-center text-white text-decoration-none">
+        <i class="bi bi-facebook social-icon"></i>
+        <span class="social-text">Laverdu.ok</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
