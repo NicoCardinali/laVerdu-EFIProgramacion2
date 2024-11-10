@@ -1,0 +1,69 @@
+/* Definición de paleta de colores */
+:root {
+    --primary-color: #c1ff72;
+    --primary-hover-color: #8ecf03;
+    --footer-color: #4caf50;
+    --social-icon-color: #fff;
+}
+
+/* Estilos generales de la segunda pantalla */
+.screen-products {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Header */
+.screen-products header {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Estilo personalizado de los botones */
+.screen-products .btn-custom {
+    background-color: var(--primary-color);
+    color: #000;
+    border: 2px solid var(--footer-color);
+}
+
+.screen-products .btn-custom:hover {
+    background-color: var(--primary-hover-color);
+}
+
+/* Estilos del footer */
+.screen-products .footer {
+    background-color: var(--footer-color);
+}
+
+.screen-products .social-icon {
+    color: var(--social-icon-color);
+    font-size: 24px;
+}
+
+/* Estilos de las secciones */
+.screen-products .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--footer-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.screen-products .product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.screen-products .product-card img {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.screen-products .product-card .card-body {
+    padding: 15px;
+    text-align: center;
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pantalla de Inicio - La Verdu</title>
+  <title>Pedido Confirmado - La Verdu</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
@@ -15,11 +15,26 @@
     <img src="images/logo.jpeg" alt="Logo La Verdu" class="mx-auto d-block" style="max-width: 200px;">
   </header>
 
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <i class="bi bi-house-door"></i> Inicio
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mensajes de confirmación -->
+  <div class="container my-4">
+    <h1 class="text-success fw-bold">Gracias por su compra</h1>
+    <p class="text-secondary">Su pedido fue confirmado</p>
+  </div>
+
   <!-- Botones de acción -->
-  <div class="container">
-    <a href="products.html" class="btn btn-custom w-75 mb-3 rounded-pill ">Seleccionar Producto</a>
-    <a href="authentication.html" class="btn btn-custom w-75 mb-3 rounded-pill">Registro / Login</a>
-    <a href="shipping.html" class="btn btn-custom w-75 mb-3 rounded-pill">Ver Pedido</a>
+  <div class="container mb-5"> 
+    <div class="d-flex justify-content-center gap-3">
+      <a href="index.html" class="btn btn-outline-primary">INICIO</a>
+      <a href="shipping.html" class="btn btn-primary">VER PEDIDO</a>
+    </div>
   </div>
 
   <!-- Footer -->

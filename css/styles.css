@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewi&family=Space+Mono:wght@400;700&display=swap');
+
+/* Definición de paleta de colores */
+:root {
+  --primary-color: #c1ff72;
+  --primary-hover-color: #1e6636;
+  --second-color-1: #8AAE96;
+  --second-color-2: #D9FFA8;
+  --second-color-3: #7CD557;
+  --positive-color: #1e6636;
+  --negative-color: #A73030;
+  --footer-color: #4caf50;  /* Color del footer */
+  --social-icon-color: #fff; /* Color de los iconos sociales */
+}
+
+body {
+  font-family: 'Chewi', sans-serif;   /* Se aplica la fuente 'Chewi' a todo el cuerpo */
+  color: var(--second-color-1);       /* Color del texto general */
+  background-color: #f8f9fa;         /* Color de fondo suave */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;  /* Fuente específica para los encabezados */
+  color: var(--primary-color);           /* Color específico para los encabezados */
+}
+
+p, span, li, a {
+  font-family: 'Chewi', sans-serif;  /* Aplicamos 'Chewi' a otros textos */
+  color: var(--second-color-1);       /* Color del texto */
+}
+
+/* Estilos de los botones */
+.btn {
+  font-family: 'Space Mono', monospace;  /* Fuente específica para los botones */
+  border-radius: 25px;                  /* Bordes redondeados */
+}
+
+.btn-custom {
+  background-color: var(--primary-color);  /* Fondo de botón personalizado */
+  color: #000;                            /* Color del texto en los botones */
+  border: 2px solid var(--second-color-3);  /* Borde del botón */
+}
+
+.btn-custom:hover {
+  background-color: var(--primary-hover-color);  /* Color de fondo cuando se pasa el cursor */
+}
+
+.btn-primary {
+  background-color: var(--positive-color);  /* Color para el botón principal */
+  color: #fff;                             /* Color blanco para el texto del botón */
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color-3);  /* Color al pasar el cursor */
+}
+
+/* Estilos del footer */
+.footer {
+  background-color: var(--footer-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  text-align: center;  /* Centrado del contenido en el footer */
+  padding: 10px 0;
+  color: white;  /* Color blanco para los textos en el footer */
+}
+
+.social-icon {
+  color: var(--social-icon-color);  /* Color blanco para los iconos sociales */
+  font-size: 24px;
+}
+
+.social-text {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* Agregar un margen para que el contenido no quede pegado al footer */
+body {
+  padding-bottom: 60px;  /* Ajusta el margen inferior para que el contenido no quede cubierto por el footer */
+}
+
+/* Estilo para los botones */
+button:focus {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-hover-color);
+}
+
+/* Botones de tipo "btn-custom" */
+.btn-custom {
+  background-color: var(--primary-color);
+  color: #000;
+  border: 2px solid var(--primary-color);
+  text-align: center;
+}
+
+.btn-custom:hover {
+  background-color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}

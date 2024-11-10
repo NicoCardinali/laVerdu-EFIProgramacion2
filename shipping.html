@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pantalla de Inicio - La Verdu</title>
+  <title>Seleccionar Envio - La Verdu</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
@@ -15,12 +15,48 @@
     <img src="images/logo.jpeg" alt="Logo La Verdu" class="mx-auto d-block" style="max-width: 200px;">
   </header>
 
-  <!-- Botones de acción -->
-  <div class="container">
-    <a href="products.html" class="btn btn-custom w-75 mb-3 rounded-pill ">Seleccionar Producto</a>
-    <a href="authentication.html" class="btn btn-custom w-75 mb-3 rounded-pill">Registro / Login</a>
-    <a href="shipping.html" class="btn btn-custom w-75 mb-3 rounded-pill">Ver Pedido</a>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <i class="bi bi-house-door"></i> Inicio
+      </a>
+    </div>
+  </nav>
+
+  <!-- Mensajes de confirmación -->
+  <div class="container my-4">
+    <h1 class="text-success fw-bold">Confirmación de Pedido</h1>
   </div>
+
+  <div class="container my-4">
+    <h4 class="text-success fw-bold">Tipo:</h4>
+    <p>Producto Seleccionado</p>
+    <h4 class="text-success fw-bold">Usuario:</h4>
+    <p>Ejemplo</p>
+    <h4 class="text-success fw-bold">Dirección:</h4>
+    <p>Ejemplo 123</p>
+    <h3 class="text-success fw-bold">Elegir tipo de envío</h3>
+  </div>
+
+  <!-- Botones para elegir tipo de envío -->
+  <div class="container mb-3">
+    <div class="d-flex justify-content-center gap-3">
+      <input type="radio" name="delivery" id="retail" class="btn-check" autocomplete="off">
+      <label for="retail" class="btn btn-outline-primary">Retiro en sucursal</label>
+      <input type="radio" name="delivery" id="cadet" class="btn-check" autocomplete="off">
+      <label for="cadet" class="btn btn-outline-primary">Cadete</label>
+    </div>
+  </div>
+
+  <!-- Botones de acción -->
+  <div class="container mb-5"> 
+    <div class="d-flex justify-content-center gap-3">
+      <a href="products.html" type="button" class="btn btn-danger">Cancelar</a>
+      <a href="payment.html" type="submit" class="btn btn-success">Confirmar</a>
+    </div>
+  </div>
+
+ 
 
   <!-- Footer -->
   <footer class="footer bg-custom text-white py-3 fixed-bottom w-100">
