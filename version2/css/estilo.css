@@ -163,6 +163,40 @@ body {
 .card:hover {
     transform: translateY(-2px);
 }
+.container-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon-link {
+    color: var(--primario-uno);
+    text-decoration: none;
+    display: inline-block; /* Asegura que el texto esté debajo del ícono */
+}
+
+.icon {
+    font-size: 3rem; /* Tamaño grande para los íconos */
+    color: var(--primario-uno);
+    transition: color 0.3s ease;
+}
+
+.icon-text {
+    font-size: 1.2rem;
+    color: var(--secundario-dos); 
+    margin-top: 0.5rem;
+}
+
+.icon-link:hover .icon,
+.icon-link:hover .icon-text {
+    color: var(--secundario-tres); 
+}
+
 
 @media (max-width: 768px) {
     .card-body {
