@@ -10,24 +10,37 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-.container-boton {
+.container .container-boton {
     display: flex;
-    justify-content: center; /* Centra los botones horizontalmente */
-    gap: 10px; /* Espacio entre los botones */
-}
-
-.container-boton .btn-custom-green {
-    background-color: var(--secundario-dos); 
-    color: #fff; 
-    border: none; 
-    padding: 10px 20px;
-    border-radius: 50px; 
-    cursor: pointer;
-}
-
-.container-boton .btn-custom-green:hover {
-    background-color: #779e86; 
-}
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .container .icon-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--primario-uno);
+    text-decoration: none;
+  }
+  
+  .container .icon {
+    font-size: 1.5rem;
+    color: var(--primario-uno);
+    transition: color 0.3s ease;
+  }
+  
+  .container .icon-text {
+    font-size: 1.5rem;
+    color: var(--secundario-dos);
+    margin-top: 0.5rem;
+  }
+  
+  .container .icon-link:hover .icon,
+  .container .icon-link:hover .icon-text {
+    color: var(--secundario-tres);
+  }  
 .text-primary-green {
     color: var(--secundario-dos);
 }
