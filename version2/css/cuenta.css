@@ -1,0 +1,7 @@
+.btn-custom-secundario {
+    background-color: var(--secundario-dos); 
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
