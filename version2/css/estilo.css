@@ -1,11 +1,12 @@
 :root {
-    --primary-green: #1E6636;
-    --secondary-green: #C1FF72;
-    --green2: #C1FF72;
-    --secundario: #8AAE96;
-    --secundario2: #7CD557;
-    --accent-yellow: #FFC107;
+    --primario-uno: #1E6636;
+    --primario-dos: #C1FF72;
+    --secundario-uno: #C1FF72;
+    --secundario-dos: #8AAE96;
+    --secundario-tres: #7CD557;
+    --secundario-cuatro: #FFC107;
 }
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -16,7 +17,7 @@ body {
 }
 
 .container-boton .btn-custom-green {
-    background-color: var(--secundario); 
+    background-color: var(--secundario-dos); 
     color: #fff; 
     border: none; 
     padding: 10px 20px;
@@ -28,7 +29,7 @@ body {
     background-color: #779e86; 
 }
 .text-primary-green {
-    color: var(--secondary-green);
+    color: var(--primario-dos);
 }
 .text-white-bold {
     color: white;
@@ -40,15 +41,15 @@ body {
 }
 
 .bg-primary-green {
-    background-color: var(--primary-green);
+    background-color: var(--primario-uno);
 }
 
 .bg-accent-yellow {
-    background-color: var(--accent-yellow);
+    background-color: var(--secundario-cuatro);
 }
 
 .btn-custom-green {
-    background-color: var(--primary-green);
+    background-color: var(--primario-uno);
     color: white;
     border: none;
     padding: 10px 25px;
@@ -106,7 +107,7 @@ body {
 }
 
 .icon-box {
-    color: var(--primary-green);
+    color: var(--primario-uno);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -125,7 +126,7 @@ body {
 }
 
 .navbar-collapse {
-    background-color: var(--primary-green);
+    background-color: var(--primario-uno);
 }
 .footer .list-unstyled i {
     font-size: 3rem; 
@@ -141,7 +142,7 @@ body {
 }
 
 .footer .list-unstyled a:hover {
-    color: var(--accent-yellow); 
+    color: var(--secundario-cuatro); 
 }
 .product-image {
     object-fit: contain;
