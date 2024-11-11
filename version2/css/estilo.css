@@ -1,11 +1,31 @@
 :root {
-    --primary-green: #4CAF50;
-    --secondary-green: #388E3C;
+    --primary-green: #1E6636;
+    --secondary-green: #C1FF72;
     --green2: #C1FF72;
+    --secundario: #8AAE96;
+    --secundario2: #7CD557;
     --accent-yellow: #FFC107;
 }
 body {
     font-family: 'Lato', sans-serif;
+}
+.container-boton {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.container-boton .btn-custom-green {
+    background-color: var(--secundario); 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 50px; 
+    cursor: pointer;
+}
+
+.container-boton .btn-custom-green:hover {
+    background-color: #779e86; 
 }
 .text-primary-green {
     color: var(--secondary-green);
