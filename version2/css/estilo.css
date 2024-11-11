@@ -29,7 +29,7 @@ body {
     background-color: #779e86; 
 }
 .text-primary-green {
-    color: var(--primario-dos);
+    color: var(--secundario-dos);
 }
 .text-white-bold {
     color: white;
