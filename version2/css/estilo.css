@@ -44,6 +44,9 @@ body {
 .text-primary-green {
     color: var(--secundario-dos);
 }
+.text-secondary-four {
+    color: var(--secundario-cuatro);
+}
 .text-white-bold {
     color: white;
     font-weight: bold;
@@ -67,6 +70,18 @@ body {
     border: none;
     padding: 10px 25px;
     border-radius: 25px;
+}
+.btn-custom-four {
+    background-color: var(--secundario-cuatro);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.btn-custom-four:focus {
+    background-color: var(--primario-uno); 
+    color: white; 
+    outline: none; 
 }
 
 .btn-custom-red {
